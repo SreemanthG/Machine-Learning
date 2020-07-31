@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Sreemanth\anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3718, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Users\Sreemanth\anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3559, in run_spyder
+    main.setup()
+  File "C:\Users\Sreemanth\anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 912, in setup
+    message=_("Spyder Internal Console\n\n"
+  File "C:\Users\Sreemanth\anaconda3\lib\site-packages\spyder\plugins\console\plugin.py", line 67, in __init__
+    self.shell.status.connect(lambda msg:
+KeyboardInterrupt

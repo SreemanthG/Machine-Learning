@@ -1,0 +1,64 @@
+Python Standard Exceptions
+Advertisements
+Previous Page
+Next Page  
+
+Here is a list all the standard Exceptions available in Python -
+Sr.No. 	Exception Name & Description
+1 	
+Python
+Exception
+
+Base class for all exceptions
+2 	
+Python
+StopIteration
+
+Raised when the next() method of an iterator does not point to any object.
+3 	
+
+SystemExit
+Python
+Raised by the sys.exit() function.
+4 	
+
+StandardError
+
+Base class for all built-in exceptions except StopIteration and SystemExit.
+5 	
+
+ArithmeticError
+
+Base class for all errors that occur for numeric calculation.
+6 	
+
+OverflowError
+
+Raised when a calculation exceeds maximum limit for a numeric type.
+7 	
+
+FloatingPointError
+
+Raised when a floating point calculation fails.
+8 	
+
+ZeroDivisionError
+
+Raised when division or modulo by zero takes place for all numeric types.
+9 	
+
+AssertionError
+
+Raised in case of failure of the Assert statement.
+10 	
+
+AttributeError
+
+Raised in case of failure of attribute reference or assignment.
+11 	
+
+EOFError
+
+Raised when there is no input from either the raw_input() or input() function and the end of file is reached.
+12 	
+
