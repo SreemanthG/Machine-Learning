@@ -1,0 +1,484 @@
+
+
+
+
+Web mining - Wikipedia
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"c2a62401-f7f8-4a1f-9231-f8f646391366","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Web_mining","wgTitle":"Web mining","wgCurRevisionId":965466027,"wgRevisionId":965466027,"wgArticleId":797887,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: missing periodical","Articles needing cleanup from June 2009","All pages needing cleanup","Cleanup tagged articles without a reason field from June 2009","Wikipedia pages needing cleanup from June 2009","Articles to be expanded from June 2015","All articles to be expanded",
+"Articles using small message boxes","Articles lacking in-text citations from September 2009","All articles lacking in-text citations","Web analytics","Data mining","World Wide Web"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Web_mining","wgRelevantArticleId":797887,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q785337"};
+RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","mediawiki.toc.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init",
+"ext.centralNotice.geoIP","ext.centralNotice.startUp"];
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web mining
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+This article may require cleanup to meet Wikipedia's quality standards. No cleanup reason has been specified. Please help improve this article if you can. (June 2009) (Learn how and when to remove this template message)
+Web mining is the application of data mining techniques to discover patterns from the World Wide Web. As the name proposes, this is information gathered by mining the web. It makes utilization of automated apparatuses to reveal and extricate data from servers and web2 reports, and it permits organizations to get to both organized and unstructured information from browser activities, server logs, website and link structure, page content and different sources.
+The goal of Web structure mining is to generate structural summary about the Web site and Web page. Technically, Web content mining mainly focuses on the structure of inner-document, while Web structure mining tries to discover the link structure of the hyperlinks at the inter-document level. Based on the topology of the hyperlinks, Web structure mining will categorize the Web pages and generate the information, such as the similarity and relationship between different Web sites.
+Web structure mining can also have another direction – discovering the structure of Web document itself. This type of structure mining can be used to reveal the structure (schema) of Web pages, this would be good for navigation purpose and make it possible to compare/integrate Web page schemes. This type of structure mining will facilitate introducing database techniques for accessing information in Web pages by providing a reference schema.
+
+Contents
+
+1 Web mining types
+2 Web usage mining
+
+2.1 Pros
+2.2 Cons
+
+
+3 Web structure mining
+4 Web content mining
+
+4.1 Web content mining in foreign languages
+
+4.1.1 Chinese
+
+
+
+
+5 See also
+6 References
+7 Resources
+
+7.1 External links
+7.2 Books
+7.3 Bibliographic references
+
+
+
+
+Web mining types[edit]
+Web mining can be divided into three different types – Web usage mining, Web content mining and Web structure mining.
+
+ The general relationship between the categories of Web mining and objectives of data mining
+
+Comparison of Web mining types[1]
+
+
+
+
+Web content mining
+
+Web structure mining
+
+Web usage mining
+
+
+
+
+IR view
+
+DB view
+
+
+View of data
+
+
+Unstructured
+Structured
+
+
+Semi-structured
+Web site as DB
+
+
+Link structure
+
+
+Interactivity
+
+
+Main data
+
+
+Text documents
+Hypertext documents
+
+
+Hypertext documents
+
+
+Link structure
+
+
+Server logs
+Browser logs
+
+
+Representation
+
+
+Bag of words, n-gram terms
+phrases, concepts or ontology
+Relational
+
+
+Edge labed graph
+Relational
+
+
+Graph
+
+
+Relational table
+Graph
+
+
+Method
+
+
+Machine learning
+Statistical (including NLP)
+
+
+Proprietary algorithms
+Association rules
+
+
+Proprietary algorithms
+
+
+Machine learning
+Statistical
+Association rules
+
+
+Application categories
+
+
+Categorization
+Clustering
+Finding extract rules
+Finding patterns in text
+
+
+Finding frequent sub structures
+Web site schema discovery
+
+
+Categorization
+Clustering
+
+
+Site construction
+Adaptation and management
+
+Web usage mining[edit]
+Web usage mining is the application of data mining techniques to discover interesting usage patterns from Web data in order to understand and better serve the needs of Web-based applications.
+Usage data captures the identity or origin of Web users along with their browsing behavior at a Web site.
+Web usage mining itself can be classified further depending on the kind of usage data considered:
+
+Web server data: The user logs are collected by the Web server. Typical data includes IP address, page reference and access time.
+Application server data: Commercial application servers have significant features to enable e-commerce applications to be built on top of them with little effort. A key feature is the ability to track various kinds of business events and log them in application server logs.
+Application level data: New kinds of events can be defined in an application, and logging can be turned on for them thus generating histories of these specially defined events. Many end applications require a combination of one or more of the techniques applied in the categories above.
+Studies related to work[2] are concerned with two areas: constraint-based data mining algorithms applied in Web usage mining and developed software tools (systems). Costa and Seco demonstrated that web log mining can be used to extract semantic information (hyponymy relationships in particular) about the user and a given community.
+
+Pros[edit]
+Web usage mining essentially has many advantages which makes this technology attractive to corporations including government agencies. This technology has enabled e-commerce to do personalized marketing, which eventually results in higher trade volumes. Government agencies are using this technology to classify threats and fight against terrorism. The predicting capability of mining applications can benefit society by identifying criminal activities. Companies can establish better customer relationship by understanding the needs of the customer better and reacting to customer needs faster. Companies can find, attract and retain customers; they can save on production costs by utilizing the acquired insight of customer requirements. They can increase profitability by target pricing based on the profiles created. They can even find customers who might default to a competitor the company will try to retain the customer by providing promotional offers to the specific customer, thus reducing the risk of losing a customer or customers.
+More benefits of web usage mining, particularly in the area of personalization, are outlined in specific frameworks such as the probabilistic latent semantic analysis model, which offer additional features to the user behavior and access pattern.[3] This is because the process provides the user with more relevant content through collaborative recommendation. These models also demonstrate a capability in web usage mining technology to address problems associated with traditional techniques such as biases and questions regarding validity since the data and patterns obtained are not subjective and do not degrade over time.[4] There are also elements unique to web usage mining that can show the technology's benefits and these include the way semantic knowledge is applied when interpreting, analyzing, and reasoning about usage patterns during the mining phase.[5]
+
+Cons[edit]
+Web usage mining by itself does not create issues, but this technology when used on data of personal nature might cause concerns. The most criticized ethical issue involving web usage mining is the invasion of privacy. Privacy is considered lost when information concerning an individual is obtained, used, or disseminated, especially if this occurs without the individual's knowledge or consent.[6] The obtained data will be analyzed, made anonymous, then clustered to form anonymous profiles.[6] These applications de-individualize users by judging them by their mouse clicks rather than by identifying information. De-individualization in general can be defined as a tendency of judging and treating people on the basis of group characteristics instead of on their own individual characteristics and merits.[6]
+Another important concern is that the companies collecting the data for a specific purpose might use the data for totally different purposes, and this essentially violates the user's interests.
+The growing trend of selling personal data as a commodity encourages website owners to trade personal data obtained from their site. This trend has increased the amount of data being captured and traded increasing the likeliness of one's privacy being invaded. The companies which buy the data are obliged make it anonymous and these companies are considered authors of any specific release of mining patterns. They are legally responsible for the contents of the release; any inaccuracies in the release will result in serious lawsuits, but there is no law preventing them from trading the data.
+Some mining algorithms might use controversial attributes like sex, race, religion, or sexual orientation to categorize individuals. These practices might be against the anti-discrimination legislation.[7] The applications make it hard to identify the use of such controversial attributes, and there is no strong rule against the usage of such algorithms with such attributes. This process could result in denial of service or a privilege to an individual based on his race, religion or sexual orientation. This situation can be avoided by the high ethical standards maintained by the data mining company. The collected data is being made anonymous so that, the obtained data and the obtained patterns cannot be traced back to an individual. It might look as if this poses no threat to one's privacy, however additional information can be inferred by the application by combining two separate unscrupulous data from the user.
+
+Web structure mining[edit]
+This section needs expansion. You can help by adding to it. (June 2015)
+Web structure mining uses graph theory to analyze the node and connection structure of a web site. According to the type of web structural data, web structure mining can be divided into two kinds:
+
+Extracting patterns from hyperlinks in the web: a hyperlink is a structural component that connects the web page to a different location.
+Mining the document structure: analysis of the tree-like structure of page structures to describe HTML or XML tag usage.
+Web structure mining terminology:
+
+Web graph: directed graph representing web.
+Node: web page in graph.
+Edge: hyperlinks.
+In degree: number of links pointing to particular node.
+Out degree: number of links generated  from particular node.
+Techniques of web structure mining:
+
+PageRank: this algorithm is used by Google to rank search results. The name of this algorithm is given by Google-founder Larry Page. The rank of a page is decided by the number of links pointing to the target node.
+Web content mining[edit]
+Web content mining is the mining, extraction and integration of useful data, information and knowledge from Web page content. The heterogeneity and the lack of structure that permits much of the ever-expanding information sources on the World Wide Web, such as hypertext documents, makes automated discovery, organization, and search and indexing tools of the Internet and the World Wide Web such as Lycos, Alta Vista, WebCrawler, Aliweb, MetaCrawler, and others provide some comfort to users, but they do not generally provide structural information nor categorize, filter, or interpret documents. These factors have prompted researchers to develop more intelligent tools for information retrieval, such as intelligent web agents, as well as to extend database and data mining techniques to provide a higher level of organization for semi-structured data available on the web. The agent-based approach to web mining involves the development of sophisticated AI systems that can act autonomously or semi-autonomously on behalf of a particular user, to discover and organize web-based information.
+Web content mining is differentiated from two different points of view:[8] Information Retrieval View and Database View.[9] summarized the research works done for unstructured data and semi-structured data from information retrieval view. It shows that most of the researches use bag of words, which is based on the statistics about single words in isolation, to represent unstructured text and take single word found in the training corpus as features. For the semi-structured data, all the works utilize the HTML structures inside the documents and some utilized the hyperlink structure between the documents for document representation. As for the database view, in order to have the better information management and querying on the web, the mining always tries to infer the structure of the web site to transform a web site to become a database.
+There are several ways to represent documents; vector space model is typically used. The documents constitute the whole vector space.  This representation does not realize the importance of words in a document. To resolve this, tf-idf (Term Frequency Times Inverse Document Frequency) is introduced.
+By multi-scanning the document, we can implement feature selection. Under the condition that the category result is rarely affected, the extraction of feature subset is needed. The general algorithm is to construct an evaluating function to evaluate the features. As feature set, information gain, cross entropy, mutual information, and odds ratio are usually used.
+The classifier and pattern analysis methods of text data mining are very similar to traditional data mining techniques. The usual evaluative merits are classification accuracy, precision and recall and information score.
+Web mining is an important component of content pipeline for web portals. It is used in data confirmation and validity verification, data integrity and building taxonomies, content management, content generation and opinion mining.[10]
+Web mining can complement the retrieval of structured data transmitted with open protocols like OAI-PMH: an example is the aggregation of works from academic publications,[11] which are mined to identify open access versions through a mix of open source and open data methods by academic databases like Unpaywall.[12]
+
+Web content mining in foreign languages[edit]
+Chinese[edit]
+The language code of Chinese words is very complicated compared to that of English. The GB, Big5 and HZ code are common Chinese word codes in web documents. Before text mining, one needs to identify the code standard of the HTML documents and transform it into inner code, then use other data mining techniques to find useful knowledge and useful patterns.
+
+See also[edit]
+Web intelligence
+Web analytics
+Web scraping
+Wikipedia:Data mining Wikipedia
+References[edit]
+
+
+^ Galitsky B., Dobrocsi G., de la Rosa J. L., Kuznetsov S. O..  Using generalization of syntactic parse trees for taxonomy capture on the web. ICCS. 2011;8323.
+
+^ Weichbroth et al.
+
+^ Ngu, Anne; Kitsuregawa, Masaru; Chung, Jen-Yao; Neuhold, Erich; Sheng, Quan (2005). Web Information Systems Engineering – WISE 2005. Berlin: Springer. pp. 15. ISBN 9783540300175..mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}
+
+^ Bauknecht, Kurt; Madria, Sanjay; Pernul, Gunther (2000). Electronic Commerce and Web Technologies: First International Conference, EC-Web 2000 London, UK, September 4-6, 2000 Proceedings. Berlin: Springer. pp. 165. ISBN 978-3540679813.
+
+^ Scime, Anthony (2005). Web Mining: Applications and Techniques. Hershey, PA: Idea Group Publishing. pp. 282. ISBN 978-1591404149.
+
+^ a b c Lita van Wel & Lambèr Royakkers (2004). "Ethical issues in web data mining" (PDF). Ethical Issues in Web Data Mining..
+
+^ Kirsten Maelstrom; John F. Rodrick; Vladimir Estivill-Castro; Denise de Vries (2007). "Legal and Technical Issues of Privacy Preservation in Data Mining" (PDF). Legal and Technical Issues of Privacy Preservation in Data Mining..
+
+^ Wang, Yan. "Web Mining and Knowledge Discovery of Usage Patterns".
+
+^ Kosala, Raymond; Hendrik Blockeel (July 2000). "Web Mining Research: A Survey". SIGKDD Explorations. 2 (1). arXiv:cs.LG/0011033. doi:10.1145/360402.360406.
+
+^ Galitsky B, Dobrocsi G, de la Rosa JL, Kuznetsov SO.  Using generalization of syntactic parse trees for taxonomy capture on the web. ICCS. 2011;8323.
+
+^ Speirs, Martha A. (2013). "Data mining for scholarly journals: challenges and solutions for libraries". Cite journal requires |journal= (help)
+
+^ Dhakal, Kerry (15 April 2019). "Unpaywall". Journal of the Medical Library Association. 107 (2). doi:10.5195/jmla.2019.650. PMC 6466485.
+
+
+Resources[edit]
+This article includes a list of references, but its sources remain unclear because it has insufficient inline citations. Please help to improve this article by introducing more precise citations. (September 2009) (Learn how and when to remove this template message)
+External links[edit]
+The Future of Web Sites = Web Services – (with a section on web scraping)
+Books[edit]
+Zdravko Markov, Daniel T. Larose "Data Mining the Web: Uncovering Patterns in Web Content, Structure, and Usage", Wiley, 2007
+Jesus Mena, "Data Mining Your Website", Digital Press, 1999
+Soumen Chakrabarti, "Mining the Web: Analysis of Hypertext and Semi Structured Data", Morgan Kaufmann, 2002
+Bing Liu, "Web Data Mining: Exploring Hyperlinks, Contents and Usage Data", Springer, 2007
+Advances in Web Mining and Web Usage Analysis 2005 - revised papers from 7 th workshop on Knowledge Discovery on the Web, Olfa Nasraoui, Osmar Zaiane, Myra Spiliopoulou, Bamshad Mobasher, Philip Yu, Brij Masand, Eds., Springer Lecture Notes in Artificial Intelligence, LNAI 4198, 2006
+Web Mining and Web Usage Analysis 2004 - revised papers from 6 th workshop on Knowledge Discovery on the Web, Bamshad Mobasher, Olfa Nasraoui, Bing Liu, Brij Masand, Eds., Springer Lecture Notes in Artificial Intelligence, 2006
+Mike Thelwall, "Link Analysis: An Information Science Approach", 2004, Academic Press
+Bibliographic references[edit]
+Baraglia, R. Silvestri, F. (2007) "Dynamic personalization of web sites without user intervention", In Communications of the ACM 50(2): 63-67
+Cooley, R. Mobasher, B. and Srivastave, J. (1997) “Web Mining: Information and Pattern Discovery on the World Wide Web” In Proceedings of the 9th IEEE International Conference on Tool with Artificial Intelligence
+Cooley, R., Mobasher, B. and Srivastava, J. “Data Preparation for Mining World Wide Web Browsing Patterns”, Journal of Knowledge and Information System, Vol.1, Issue. 1, pp. 5–32, 1999
+Costa, RP and Seco, N. “Hyponymy Extraction and Web Search Behavior Analysis Based On Query Reformulation”, 11th Ibero-American Conference on Artificial Intelligence, 2008 October.
+Kohavi, R., Mason, L. and Zheng, Z. (2004) “Lessons and Challenges from Mining Retail E-commerce Data” Machine Learning, Vol 57, pp. 83–113
+Lillian Clark, I-Hsien Ting, Chris Kimble, Peter Wright, Daniel Kudenko (2006)"Combining ethnographic and clickstream data to identify user Web browsing strategies" Journal of Information Research, Vol. 11 No. 2, January 2006
+Eirinaki, M., Vazirgiannis, M. (2003) "Web Mining for Web Personalization", ACM Transactions on Internet Technology, Vol.3, No.1, February 2003
+Mobasher, B., Cooley, R. and Srivastava, J. (2000) “Automatic Personalization based on web usage Mining” Communications of the ACM, Vol. 43, No.8, pp. 142–151
+Mobasher, B., Dai, H., Luo, T. and Nakagawa, M. (2001) “Effective Personalization Based on Association Rule Discover from Web Usage Data” In Proceedings of WIDM 2001, Atlanta, GA, USA, pp. 9–15
+Nasraoui O., Petenes C.,  "Combining Web Usage Mining and Fuzzy Inference for Website Personalization", in Proc. of WebKDD 2003 – KDD Workshop on Web mining as a Premise to Effective and Intelligent Web Applications, Washington DC, August 2003, p. 37
+Nasraoui O., Frigui H., Joshi A., and Krishnapuram R.,  “Mining Web Access Logs Using Relational Competitive Fuzzy Clustering”, Proceedings of the Eighth International Fuzzy Systems Association Congress, Hsinchu, Taiwan, August 1999
+Nasraoui O., “World Wide Web Personalization,” Invited chapter in “Encyclopedia of Data Mining and Data Warehousing”, J. Wang, Ed, Idea Group, 2005
+Pierrakos, D., Paliouras, G., Papatheodorou, C., Spyropoulos C. D. (2003) “Web usage mining as a tool for personalization: a survey”, User modelling and user adapted interaction journal, Vol.13, Issue 4, pp. 311–372
+I-Hsien Ting, Chris Kimble, Daniel Kudenko (2005) "A Pattern Restore Method for Restoring Missing Patterns in Server Side Clickstream Data"
+I-Hsien Ting, Chris Kimble, Daniel Kudenko (2006) "UBB Mining: Finding Unexpected Browsing Behaviour in Clickstream Data to improve a Web Site’s Design"
+Weichbroth, P., Owoc, M., Pleszkun, M. (2012) "Web User Navigation Patterns Discovery from WWW Server Log Files"
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Web_mining&oldid=965466027"
+Categories: Web analyticsData miningWorld Wide WebHidden categories: CS1 errors: missing periodicalArticles needing cleanup from June 2009All pages needing cleanupCleanup tagged articles without a reason field from June 2009Wikipedia pages needing cleanup from June 2009Articles to be expanded from June 2015All articles to be expandedArticles using small message boxesArticles lacking in-text citations from September 2009All articles lacking in-text citations
+
+
+
+
+
+
+Navigation menu
+
+
+
+
+Personal tools
+
+
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+
+Namespaces
+
+
+
+
+ArticleTalk
+
+
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+
+
+
+Views
+
+
+
+
+ReadEditView history
+
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonateWikipedia store
+
+
+
+
+
+Contribute
+
+
+
+
+HelpCommunity portalRecent changesUpload file
+
+
+
+
+
+Tools
+
+
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+
+Print/export
+
+
+
+
+Download as PDFPrintable version
+
+
+
+
+
+Languages
+
+
+
+
+العربيةDeutschEspañolEuskaraفارسیFrançais한국어हिन्दीHrvatskiMagyar日本語PortuguêsРусскийSlovenčinaไทย
+Edit links
+
+
+
+
+
+
+ This page was last edited on 1 July 2020, at 13:43 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.276","walltime":"0.364","ppvisitednodes":{"value":1426,"limit":1000000},"postexpandincludesize":{"value":36057,"limit":2097152},"templateargumentsize":{"value":3521,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":39313,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  313.861      1 -total"," 52.62%  165.157      1 Template:Reflist"," 31.64%   99.319      1 Template:Cleanup"," 29.79%   93.514      3 Template:Cite_book"," 18.49%   58.041      3 Template:Ambox"," 16.32%   51.230      3 Template:Main_other"," 10.08%   31.622      5 Template:Cite_journal","  8.17%   25.642      1 Template:Category_handler","  5.33%   16.742      1 Template:More_footnotes","  5.04%   15.830      1 Template:Section_expand"]},"scribunto":{"limitreport-timeusage":{"value":"0.132","limit":"10.000"},"limitreport-memusage":{"value":4506996,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20200828041127","ttl":2592000,"transientcontent":false}}});});
+{"@context":"https:\/\/schema.org","@type":"Article","name":"Web mining","url":"https:\/\/en.wikipedia.org\/wiki\/Web_mining","sameAs":"http:\/\/www.wikidata.org\/entity\/Q785337","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q785337","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-07-08T21:37:06Z","dateModified":"2020-07-01T13:43:39Z"}
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":116,"wgHostname":"mw1395"});});
